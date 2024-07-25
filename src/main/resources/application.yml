@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://127.0.0.1:23306/publiko?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    password: Qwe123!@#
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+

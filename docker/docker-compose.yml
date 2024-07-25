@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_ROOT_PASSWORD: Qwe123!@#
+      MYSQL_DATABASE: publiko
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+    ports:
+      - "23306:3306"
+    container_name: publiko-api-mysql
