@@ -4,7 +4,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    url: jdbc:mysql://127.0.0.1:23306/publiko?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://127.0.0.1:23306/publiko?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&serverTimezone=Asia/Seoul
     password: Qwe123!@#
   jpa:
     hibernate:
@@ -13,4 +13,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
+logging:
+  level:
+    root: info
+    com.publiko.api: debug
