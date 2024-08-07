@@ -4,7 +4,7 @@
 | ------------------- | --------------------------------------------- |
 | 모바일 애플리케이션 | https://github.com/publiko2024/publiko_client |
 | AI 챗봇 서버        | https://github.com/publiko2024/publiko_ai     |
-| 커뮤니티 API 서버   | https://github.com/publiko2024/publiko_ai     |
+| 커뮤니티 API 서버   | https://github.com/publiko2024/publiko_api    |
 
 ## 소개
 퍼블리코는 장애인의 온라인 소통과 맞춤형 정보 접근을 돕는 AI 챗봇 기반 커뮤니티 앱 서비스입니다.
